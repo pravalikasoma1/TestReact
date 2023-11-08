@@ -1,0 +1,194 @@
+/**************************************/
+/*Point of Contact*/
+/**************************************/
+.divnoresults {
+    color: #9c9c9c;
+    font-family: 'sourcesansproregular';
+}
+
+.divpageheader {
+    width: 99%;
+    border-bottom: 1px solid #c7c7c7;
+    padding: 10px 0 0 0;
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divpageheader h1 {
+    font-family: 'latobold';
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.divheaderelements {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.divpageheader h1 span[class^="icon-"] {
+    font-size: 20px;
+    padding-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.divpageheader h1:after {
+    content: "";
+    border-bottom: 3px #FFC141 solid;
+    width: 113px;
+    position: relative;
+    top: 3px;
+    display: block;
+    padding: 5px 0 0;
+}
+
+.divpoccontent {
+    width: 100%;
+    position: relative;
+}
+
+.divpoccontent ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divpoccontent ul li {
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.divpoccontent ul .panelitem {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    padding: 8px;
+    background-color: #fff;
+}
+
+.divpoccontent ul li:last-child {
+    padding-right: 0px;
+}
+
+.divpoccontent ul li .divavator {
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.divpoccontent ul li .divavator span {
+    width: 40px;
+    height: 40px;
+    background-color: #e2e2e2;
+    color: #19595B;
+    border-radius: 100%;
+    display: inline-block;
+    font-family: 'latobold', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.divpoccontent ul li h3 {
+    color: #000;
+    font-family: 'latomedium', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.divpoccontent ul li p {
+    margin: 0px;
+    font-size: 13px;
+    font-family: 'sourcesansproregular', sans-serif;
+    color: #03787C;
+}
+
+.divpoccontent ul li .anchormailto {
+    display: block;
+    color: #03787C;
+    padding-left: 16px;
+    position: relative;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    font-size: 13px;
+    font-family: 'sourcesansproregular', sans-serif;
+    text-decoration: none;
+}
+
+.divpoccontent ul li .anchormailto::before {
+    content: "\e93b";
+    font-family: 'icomoon' !important;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    font-size: 7px;
+    font-weight: bold;
+    color: #03787C;
+}
+
+.spanPoccount {
+    font-family: 'sourcesansprosemibold';
+    color: #000;
+    font-size: 15px;
+    padding: 4px 8px;
+    background: #F0C619;
+    border-radius: 4px;
+    margin-left: 5px;
+    top: -1px;
+    position: relative;
+}
+
+.divpoccontent ul li .anchorcallto {
+    display: block;
+    color: #03787C;
+    padding-left: 16px;
+    position: relative;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    font-size: 13px;
+    font-family: 'sourcesansproregular', sans-serif;
+    text-decoration: none;
+}
+
+.divpoccontent ul li .anchorcallto::before {
+    content: "\e937";
+    font-family: 'icomoon' !important;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    font-size: 9px;
+    font-weight: bold;
+    color: #03787C;
+}
+
+.divpoccontent .divcard div[class^=divitem]:last-child a {
+    padding-right: 0px;
+
+}
+
+@media (max-width: 800px) {
+    .divpoccontent ul li {
+        width: 33.3%;
+    }
+
+    .divpoccontent ul .panelitem {
+        padding: 0px;
+    }
+}

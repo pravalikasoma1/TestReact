@@ -1,0 +1,123 @@
+/*RhyBus Announcement*/
+
+
+/***************************************/
+
+
+/*Articles*/
+
+
+/***************************************/
+
+.divarticlecontainer article {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.divarticlecontainer article>a {
+    color: #033c86;
+    text-decoration: none;
+    font-size: 14px;
+    max-width: 90%;
+    font-family: 'sourcesansproregular', sans-serif;
+}
+
+.divarticlecontainer article>p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+    margin: 3px 0;
+    font-family: 'sourcesansproregular', sans-serif;
+}
+
+.divarticlecontainer article .articleinfo {
+    font-size: 13px;
+    color: #656565;
+}
+
+.divarticlecontainer article .articleinfo span:first-child {
+    padding-right: 5px;
+    border-right: 1px solid #a2a2a2;
+}
+
+.divarticlecontainer article .articleinfo span i {
+    font-style: normal;
+}
+
+.divarticlecontainer,
+.divarticleitem {
+    width: 100%;
+    position: relative;
+}
+
+.divarticlecontainer {
+    min-height: 282px;
+    max-height: 282px;
+}
+
+.divarticleitem {
+    margin-bottom: 10px;
+}
+
+.divarticleheader {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.divarticleitem .anchortitle {
+    font-size: 14px;
+    max-width: 90%;
+    font-family: 'latomedium', sans-serif;
+    color: #29508D;
+}
+
+.divarticleitem p {
+    font-size: 14px;
+    color: #000;
+    margin: 3px 0;
+    font-family: 'sourcesansproregular', sans-serif;
+}
+
+.divarticleitem .articleinfo {
+    font-size: 13px;
+    color: #656565;
+    font-family: 'sourcesansproregular', sans-serif;
+}
+
+.divarticleitem .articleinfo span:first-child {
+    padding-right: 5px;
+    border-right: 1px solid #a2a2a2;
+}
+
+.divarticleitem .articleinfo span i {
+    font-style: normal;
+}
+
+.divarticlecontainer b {
+    font-size: 13px;
+}
+
+.divattachments {
+    width: 100%;
+    position: relative;
+}
+
+.divattachments ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.divattachments ul li {
+    margin: 0 8px 5px 0;
+}
+
+.divattachments ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #023a84;
+    font-family: 'sourcesansproregular', sans-serif
+}

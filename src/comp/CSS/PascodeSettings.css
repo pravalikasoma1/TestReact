@@ -1,0 +1,190 @@
+.divPascodesettings .divhomeheader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dotted #c1c1c1;
+    padding: 10px 0 !important;
+}
+
+.divPascodesettings .divhomeheader h1::after {
+    content: none;
+}
+
+.divPascodesettings .divhomeheader h1 {
+    text-transform: uppercase;
+    font-family: 'latobold', sans-serif;
+    font-size: 13px;
+    color: #333;
+}
+
+.divpascodeactions {
+    margin-left: auto;
+    display: flex;
+}
+
+.divpascodesearchinfo {
+    display: flex;
+    margin-left: auto;
+}
+
+.divsearch a,
+.divsearch a:hover,
+.divsearch a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.anchorBtn {
+    padding: 6px 10px;
+    color: #fff;
+    font-family: "sourcesansprosemibold", sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.addbtn {
+    background-color: #0a8489;
+    color: #fff;
+}
+
+.Clearbtn {
+    background-color: #728bb1;
+    color: #fff;
+}
+
+.divtopheading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.divbottomsec {
+    display: flex;
+    margin-left: auto;
+    width: 100%;
+}
+
+.searchcontrolwrapper {
+    display: inline-block;
+}
+
+.divbottomsec .divsearch .anchorsearchbtn {
+
+    margin-right: 5px;
+    padding: 6px 10px;
+}
+
+.divbottomsec .divsearch span[class^="icon"] {
+    padding-right: 5px;
+    font-size: 11px;
+}
+
+.divbottomsec .divsearch input {
+    width: 600px;
+    position: relative
+}
+
+
+.divpascodetable table {
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.divpascodetable table th {
+    background: linear-gradient(#fff 0%, #f2f0f0 100%);
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px 10px;
+    font-size: 13px;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    border-left: 1px solid #dddddd;
+}
+
+.divpascodetable table tr td {
+    padding: 8px 10px;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 13px;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+
+.divpascodetable table tr td .divformgroup .mandatory {
+    font-family: none !important;
+    font-size: inherit;
+
+}
+
+.divpascodetable table tr td span .mandatory {
+    font-family: inherit;
+}
+
+.divpascodetable table tr td ul,
+.divpascodetable table tr td ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.divpascodetable table tr td ul li:first-child {
+    margin-right: 5px;
+}
+
+.divpascodetable table tr td ul li a {
+    text-decoration: none;
+}
+
+.divpascodetable table tr td ul li .edit span[class^="icon-Edit"] {
+
+    font-size: 15px;
+    color: #0e2982;
+}
+
+.divpascodetable table tr td ul li .delete span[class^="icon-trash"] {
+
+    font-size: 15px;
+    color: #0e2982;
+}
+
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    justify-content: end;
+    position: absolute;
+    right: 84px;
+    padding-top: 10px;
+}
+
+.pagination a {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #f5f5f5;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'sourcesansproregular', sans-serif;
+    line-height: 30px;
+}
+
+
+.pagination a.active {
+
+    background: #003f91;
+    color: #fff !important;
+
+
+}

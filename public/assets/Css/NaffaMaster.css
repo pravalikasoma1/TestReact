@@ -1,0 +1,555 @@
+﻿/*Header*/
+/***************************************/
+.divheader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.divheaderrightside {
+    margin-left: auto;
+}
+
+.divheader img {
+    max-width: 350px !important;
+    height: auto;
+    max-height: none;
+}
+
+.divheader {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/******************************************/
+/*Logo*/
+/******************************************/
+
+.divcustomlogo .ms-siteicon-img {
+    max-width: 350px !important;
+    height: auto;
+    max-height: none;
+}
+
+.ms-siteicon-a {
+    max-height: inherit;
+    max-width: inherit !important;
+}
+
+/*****************************/
+/*Profile*/
+/*****************************/
+.divuserdetails {
+    margin-left: auto;
+    position: relative;
+    right: 20px;
+}
+
+.divuserdetails ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.divuserdetails ul li {
+    position: relative;
+}
+
+.divuserdetails .divSearchInquiries {
+    position: relative;
+    display: inline-block;
+}
+
+.divuserdetails .divSearchInquiries input {
+    position: relative;
+    width: 230px;
+    min-height: 25px;
+    border: 1px solid #d7dae2 !important;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 6%)
+}
+
+.divuserdetails .divSearchInquiries .anchorsearchicon {
+    right: 5px;
+    top: 1px;
+    width: 25px;
+    height: 25px;
+}
+
+.divuserdetails .divSearchInquiries .anchorsearchicon span[class^="icon-"] {
+    color: #374448
+}
+
+.divuserdetails .divSearchInquiries a {
+    padding: 0px;
+}
+
+.divuserdetails ul li a {
+    font-family: 'latobold', sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 2.3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.divuserdetails ul li.liProfileBtn a span:nth-child(1) {
+    background-color: #00a676;
+    color: #fff;
+    display: inline-block
+}
+
+.divuserdetails ul li.liProfileBtn a span {
+    text-align: center;
+    line-height: 25px;
+    width: 25px;
+    height: 25px;
+    color: #00a676;
+    border-radius: 100%;
+}
+
+.divuserdetails ul li:first-child {
+    margin-right: 5px;
+}
+
+/******************************************/
+/*Helpdesk*/
+/******************************************/
+.anchorhelpdesk::after {
+    content: none;
+}
+
+/*****************************/
+/*Submit A Question Buttons*/
+/*****************************/
+.divuserrole {
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+    position: relative;
+    left: 20px;
+    margin-left: auto;
+}
+
+.divuserrole a {
+    text-decoration: none;
+}
+
+.divuserrole a:hover {
+    text-decoration: none;
+}
+
+.anchorSubmitQuestion,
+.anchorcreateInqbtn {
+    font-family: 'latobold', sans-serif !important;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    margin: 0 10px 0 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #fbc402;
+    border: 1px solid #d0a90d;
+}
+
+.anchorSubmitQuestion:hover,
+.anchorSubmitQuestion:focus,
+.anchorSubmitQuestion:active,
+.anchorSubmitQuestion:visited {
+    color: #000;
+}
+
+.anchorSubmitQuestion {
+    background-color: #DBEEFF;
+    border: 1PX solid #90BBE3;
+    color: #000;
+}
+
+.anchorSubmitQuestion:before {
+    content: "\e921";
+    font-family: 'icomoon' !important;
+    font-size: 18px;
+    color: #000;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+.anchorcreateInqbtn:before {
+    content: "\e907";
+    font-family: 'icomoon' !important;
+    font-size: 18px;
+    color: #3B3B3B;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+
+/*****************************/
+/*Navigation*/
+/*****************************/
+
+.navigation ul.static>li.static>a.ms-core-listMenu-selected {
+    color: #000;
+    background-color: #F0C619;
+    margin-right: 0px !important;
+}
+
+.navigation .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover,
+.navigation .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item.ms-core-listMenu-selected:hover {
+    color: #000;
+    background-color: #F0C619;
+}
+
+.navigation li.hover,
+.navigation li a[title="HOME"] {
+    background-color: #F0C619;
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a.active {
+    background: #F0C619;
+    color: #000 !important;
+}
+
+/* nav ul li,
+nav ul li a {
+    float: none;
+} */
+
+/*****************************/
+/*Navigation Right*/
+/*****************************/
+.divnavright ul>li>a {
+    float: left;
+}
+
+.divnavright ul li {
+    border-left: none;
+    border-right: none;
+    float: left;
+}
+
+.notification {
+    position: relative;
+}
+
+.divnavright ul li {
+    border-left: 1px solid #5e86ba;
+    border-right: 1px solid #5e86ba;
+}
+
+.divnavright ul li:nth-child(2) {
+    border-left: 1px solid #5e86ba;
+    border-right: 1px solid #5e86ba;
+}
+
+.divnavright ul li:nth-child(3) {
+    border-right: 1px solid #5e86ba;
+    border-left: none;
+}
+
+
+
+/*****************************/
+/*Create Inquiry & Create Due Out Buttons*/
+/*****************************/
+.divuserrole {
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+    margin-left: inherit;
+    position: relative;
+    left: 20px;
+}
+
+.divuserrole a {
+    text-decoration: none;
+}
+
+.anchorcreateInqbtn,
+.anchorCreateDueoutbtn {
+    font-family: 'latobold', sans-serif !important;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    margin: 0 10px 0 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #fbc402;
+    border: 1px solid #d0a90d;
+}
+
+.anchorcreateInqbtn:hover,
+.anchorcreateInqbtn:focus,
+.anchorcreateInqbtn:active,
+.anchorcreateInqbtn:visited {
+    color: #3B3B3B;
+}
+
+.anchorcreateInqbtn:before {
+    content: "\e907";
+    font-family: 'icomoon' !important;
+    font-size: 18px;
+    color: #3B3B3B;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+.anchorCreateDueoutbtn:hover,
+.anchorCreateDueoutbtn:focus,
+.anchorCreateDueoutbtn:active,
+.anchorCreateDueoutbtn:visited {
+    color: #fff;
+}
+
+.anchorCreateDueoutbtn {
+    background-color: #477998;
+    border-color: #126CA5;
+    color: #fff;
+}
+
+.anchorCreateDueoutbtn:before {
+    content: "\e921";
+    font-family: 'icomoon' !important;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+/***********************************************/
+/*Custom Navigation Code Latest*/
+/***********************************************/
+.divnavright {
+    margin-left: auto;
+}
+
+.header {
+    position: relative;
+    z-index: 3;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header ul li {
+    border-right: 1px solid #5e86ba;
+}
+
+.header ul li:first-child {
+    border-left: 1px solid #5e86ba;
+}
+
+.header li a {
+    display: block;
+    padding: 9px 10px;
+    text-decoration: none;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.header li a:hover,
+.header li a:focus,
+.header .menu-btn:hover,
+.divnavright ul li a:hover,
+.divnavright ul li a:focus,
+.divnavright ul li .anchoractive,
+.header li .anchoractive {
+    background-color: #F0C619;
+    color: #333 !important;
+}
+
+.header li a:visited {
+    color: #fff;
+}
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    padding: 16px 10px 17px 10px;
+    position: relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicon {
+    background: #fff;
+    display: block;
+    height: 2px;
+    top: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background-color: #fff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked~.menu {
+    max-height: 285px;
+    background-color: #003f91;
+    position: relative;
+    top: 0px;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+@media (min-width: 556px) {
+    .divtopheader .divheader {
+        margin: 10px 0px 10px 0px;
+        width: 100%;
+        position: relative;
+    }
+
+    .divnavleft .menu-icon .navicon:after {
+        top: 0px;
+    }
+
+    .divnavleft .menu-btn:checked~.menu {
+        z-index: 1;
+        top: 1px;
+    }
+
+    .divnavleft ul li:first-child {
+        border-left: none;
+        border-right: none;
+    }
+
+    .anchorSubmitQuestion {
+        margin: 0px;
+    }
+}
+
+@media (min-width: 800px) {
+    .divheader {
+        justify-content: inherit;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header li {
+        float: left;
+    }
+
+    .header li a {
+        padding: 12px 8px 11px 8px;
+    }
+
+    .header li a:hover {
+        background-color: #F0C619;
+        color: #333;
+    }
+
+    .header .menu {
+        clear: none;
+        max-height: none;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .divuserrole {
+        border-left: 0px;
+        margin-bottom: 5px;
+    }
+
+    .divuserdetails ul li.liProfileBtn a {
+        width: 80px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1152px) {
+    .divuserdetails .divSearchInquiries input {
+        width: 170px;
+    }
+
+    .divuserdetails .divSearchInquiries {
+        margin-left: 40px;
+    }
+
+    .header .menu-btn:checked~.menu {
+        top: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .divuserdetails .divSearchInquiries input {
+        width: 150px;
+    }
+
+    .divuserdetails .divSearchInquiries {
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (min-device-width:768px) and (max-device-width: 1280px) {
+    .header li a {
+        width: 100%;
+    }
+}

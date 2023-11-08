@@ -1,0 +1,951 @@
+/*****************************************/
+/*Header without tabs*/
+/*****************************************/
+.divleftcontainer,
+.divrightcontainer {
+    width: 100%;
+    position: relative;
+}
+
+.divlistviewcontainer {
+    margin-top: 10px;
+    position: relative;
+}
+
+.divlistviewheader {
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 1px;
+    background-color: #fff;
+    z-index: 1;
+    border-bottom: 3px solid #DCE3E8;
+    margin: 5px 0px 5px 0px;
+}
+
+.divlistviewheader h2 {
+    font-family: 'latobold', sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+span.spancount {
+    font-family: 'sourcesansprosemibold', sans-serif;
+    color: #000;
+    font-size: 15px;
+    padding: 3px 6px;
+    background-color: #F0C619;
+    border-radius: 4px;
+    margin-left: 5px;
+    top: -1px;
+    position: relative;
+}
+
+.divlistviewheader h2:after {
+    content: "";
+    border-bottom: 3px #F0C619 solid;
+    width: 100%;
+    position: relative;
+    top: 13px;
+    display: block;
+}
+
+.divheaderactionbtns {
+    margin-left: auto;
+}
+
+.divheaderactionbtns>ul,
+.divheaderactionbtns>ul>li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.divheaderactionbtns>ul>li {
+    margin-right: 5px;
+    float: left;
+}
+
+.divheaderactionbtns>ul>li>a {
+    font-size: 14px;
+    padding: 5px 10px;
+    font-family: "sourcesansprosemibold", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.divheaderactionbtns>ul>li>a span[class^="icon-"] {
+    font-size: 13px;
+    padding-right: 5px;
+    position: relative;
+    top: 1px;
+}
+
+.divheaderactionbtns>ul>li.liExcelbtn {
+    background-color: none;
+    border: 1px solid #3BA204;
+}
+
+.divheaderactionbtns>ul>li.liExcelbtn a {
+    color: #3BA204;
+}
+
+.divheaderactionbtns>ul>li.liExcelbtn:hover {
+    background-color: #3BA204;
+}
+
+.divheaderactionbtns>ul>li.liExcelbtn a:hover {
+    color: #fff;
+}
+
+.divheaderactionbtns>ul>li:last-child {
+    margin-right: 0px;
+}
+
+.divheaderactionbtns>ul>li.liElevateTobtn .divactionpopup {
+    border-top-color: #008893;
+}
+
+/*****************************************/
+/*Header with tabs*/
+/*****************************************/
+.divtabs {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divborderline {
+    width: 100%;
+    height: 3px;
+    background-color: #efefef;
+    border: none;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    position: relative;
+    top: 1px;
+}
+
+.divquestionsTab {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    max-height: inherit;
+    min-height: inherit
+}
+
+.divquestionsTab .ulnav {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.divquestionsTab .ulnav>li {
+    margin-bottom: -3px;
+    border-left: 0px;
+}
+
+.divquestionsTab .ulnav>li {
+    position: relative;
+    display: block;
+}
+
+.divquestionsTab .ulnav>li>a {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    font-family: 'latobold', sans-serif;
+    text-transform: uppercase;
+}
+
+.divquestionsTab .ulnav>li.active>a,
+.divquestionsTab .ulnav>li.active>a:hover,
+.divquestionsTab .ulnav>li.active>a:focus,
+.divquestionsTab .ulnav>li>a:focus {
+    color: #000;
+    cursor: default;
+    border-bottom: 3px solid #F0C619;
+    position: relative;
+    z-index: 1;
+}
+
+.divquestionsTab .ulnav>li>a {
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.divquestionsTab .ulnav>li>a {
+    position: relative;
+    display: block;
+    padding: 6px 6px 12px 6px;
+}
+
+.divquestionsTab .tab-pane {
+    width: 100%;
+    position: relative;
+}
+
+.divquestionsTab .tab-content>.tab-pane {
+    display: none;
+}
+
+.divquestionsTab .tab-content>.active {
+    display: block;
+}
+
+.divquestionsTab ul li.active a .spancount {
+    background-color: #F0C619;
+}
+
+.divquestionsTab ul li a .spancount {
+    padding: 2px 8px;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+.divactions {
+    margin-left: auto
+}
+
+/*****************************************/
+/*Assign to popup Elevate Popup*/
+/*****************************************/
+.divheaderactionbtns>ul>li.liAssignTobtn>a {
+    background-color: #868B0C;
+}
+
+.divactionpopup {
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 0 3px 3px 0px #dedede;
+    z-index: 2;
+    border-top: 3px solid transparent;
+    padding: 12px 15px;
+    position: absolute;
+    top: 27px;
+    right: 0;
+    display: none;
+    color: #323232;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.divheaderactionbtns>ul>li.liAssignTobtn .divactionpopup {
+    border-top-color: #868B0C;
+}
+
+.divradiobuttons {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    top: -5px;
+    margin: 10px 0px 0px 0px;
+}
+
+.divradiobuttons input {
+    width: auto !important;
+    position: relative;
+    top: -4px;
+    margin: 3px;
+}
+
+.divradiobuttons label {
+    margin: 0 6px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    font-family: 'sourcesansproregular', sans-serif;
+    margin-bottom: 0px;
+    font-size: 13px;
+    color: #979797 !important;
+    display: inline-block;
+}
+
+.divoptions {
+    display: none;
+}
+
+.divheaderactionbtns>ul>li.liElevateTobtn>a {
+    background-color: #008893;
+}
+
+.divheaderactionbtns>ul>li.liSendTobtn>a {
+    background-color: #9120B2;
+}
+
+.divheaderactionbtns>ul>li.liSendTobtn .divactionpopup {
+    border-top-color: #9120B2;
+}
+
+.divheaderactionbtns>ul>li.liCompletebtn>a {
+    background-color: #269B0A;
+}
+
+.divheaderactionbtns>ul>li.liCompletebtn .divactionpopup {
+    border-top-color: #269B0A;
+}
+
+.divheaderactionbtns>ul>li.liRespondbtn>a {
+    background-color: #346FCC;
+}
+
+.divheaderactionbtns>ul>li.liRespondbtn .divactionpopup {
+    border-top-color: #346FCC;
+}
+
+/*****************************************/
+/*Questions list*/
+/*****************************************/
+.divquestionslist {
+    width: 100%;
+    margin: 5px 0 0 0;
+    position: relative;
+    display: inline-block;
+}
+
+.divquestionslist>ul {
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+}
+
+.divquestionslist>ul>li {
+    list-style-type: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 11%);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.divquestionslist>ul>li span.spanquestion {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    ;
+}
+
+.divquestionslist>ul>li span.spanquestion input[type="checkbox"] {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+
+.divquestionslist>ul>li span.spanquestion a {
+    color: #07307E;
+    font-size: 15px;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    padding: 5px 0px 5px 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.divquestionstatus {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divquestionstatus .divitem {
+    flex: 1;
+    border-right: 1px dashed rgba(112, 112, 112, 0.5);
+    padding: 0px 5px 0px 5px;
+}
+
+.divquestionstatus .divitem p {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'sourcesansproregular', sans-serif;
+    color: #959595;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.divquestionstatus .divitem h5 {
+    color: #4A4A4A;
+    font-size: 14px;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+.divquestionstatus .divitem:nth-child(1) {
+    padding-left: 0px;
+}
+
+.divquestionstatus .divitem:last-child {
+    padding-right: 0px;
+}
+
+.divquestionstatus .divitem:last-child {
+    border-right: none;
+}
+
+.divquestionstatus .divitem h5[kpi-color="1"] {
+    color: #4F7693;
+}
+
+.divquestionstatus .divitem h5[kpi-color="2"] {
+    color: #008893;
+}
+
+.divquestionstatus .divitem h5[kpi-color="3"] {
+    color: #099EE0;
+}
+
+.divquestionstatus .divitem h5[kpi-color="4"] {
+    color: #9F33BF;
+}
+
+.divquestionstatus .divitem h5[kpi-color="5"] {
+    color: #08B5BC;
+}
+
+.divquestionstatus .divitem h5[kpi-color="6"] {
+    color: #BA8338;
+}
+
+.divquestionstatus .divitem h5[kpi-color="7"] {
+    color: #63811F;
+}
+
+.divquestionstatus .divitem h5[kpi-color="8"] {
+    color: #269B0A;
+}
+
+.divquestionstatus .divitem h5[kpi-color="9"] {
+    color: #4b2929;
+}
+.divquestionstatus .divitem h5[kpi-color="10"] {
+    color: #7e4550;
+}
+.divquestionstatus .divitem h5[kpi-color="11"] {
+    color: #801c69;
+}
+/*****************************************/
+/*Right Side*/
+/*****************************************/
+.divrightcontainer header {
+    padding: 10px 10px;
+    min-height: 40px;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divrightcontainer header h1 {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.divrightcontainer header h1 span[class^="icon-Dashboard"] {
+    padding-right: 5px;
+}
+
+.divrightcontainer header .divfiscalyear {
+    color: #000;
+    font-size: 13px;
+    margin: 0px 5px 0px auto;
+    font-family: 'latomedium', sans-serif;
+}
+
+.divfilters {
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    border-top: none;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 7%);
+}
+
+.divrightcontainer header {
+    border-radius: 0;
+    background-color: #063A7C;
+}
+
+.divfilters {
+    border: none;
+    box-shadow: 0 0 6px rgb(0 0 0 / 8%);
+}
+
+.divrightcontainer header .divfiscalyear label {
+    color: #fff;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+.divrightcontainer header .divfiscalyear select {
+    background-color: #fff;
+    min-height: 23px;
+}
+
+.divrightcontainer header .anchorclearalllink {
+    margin: 0px;
+    background-color: #6F9BB7;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    color: #fff;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.divrightcontainer header .anchorclearalllink span[class^="icon-"] {
+    padding-right: 3px;
+    font-size: 10px;
+}
+
+.divfilters .divfilterrow {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+
+.divfilters .divfilterrow .divfilterfield {
+    padding: 0px 10px 5px 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    position: relative;
+    display: inline-block;
+    max-width: 49.1%;
+}
+
+.divfilters .divfilterrow .divfilterfield:nth-child(even) {
+    padding-right: 0px;
+}
+
+.divfilters.divformgroup label {
+    font-size: 14px;
+}
+
+.divfilterfield {
+    padding-bottom: 10px;
+}
+
+/*****************************************/
+/*Total Kpi's*/
+/*****************************************/
+.divkpis {
+    width: 100%;
+    position: relative;
+}
+
+.divkpis .divtotalbg .divtotalbgdetails {
+    margin: 14px 11px 8px 10px;
+}
+
+.divkpis .divtotalbg {
+    background-color: #113476;
+    margin: 0 0 10px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+}
+
+.divkpis .divtotalbg .divcount {
+    background-color: #2C57A8;
+    min-width: 51px;
+    margin-left: auto;
+    font-family: "sourcesansprobold", sans-serif;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.divkpis .divtotalbg p {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "latobold", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    line-height: 2em;
+}
+
+/*****************************************/
+/*SubKpi's Colors*/
+/*****************************************/
+.divkpisaccordions .divsubtopkpis {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+}
+
+.divkpisaccordions .divsubtopkpis>ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li {
+    list-style-type: none;
+    width: 50%;
+    padding: 0px 10px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+    height: auto;
+    border: 1px solid #DBDBDB;
+    border-bottom: 3px solid;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-left-color: #DBDBDB !important
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li:last-child,
+.divkpisaccordions .divsubtopkpis>ul>li:nth-child(2),
+.divkpisaccordions .divsubtopkpis>ul>li:nth-child(4),
+.divkpisaccordions .divsubtopkpis>ul>li:nth-child(6) {
+    padding-right: 0px;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li:nth-child(7) {
+    padding-right: 10px;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a>h2 {
+    font-size: 16px;
+    font-family: "latobold", sans-serif;
+    margin: 0px;
+    padding: 3px 0 0 0;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a>p {
+    font-size: 12px;
+    font-family: "latobold", sans-serif;
+    margin: 0px;
+    padding: 3px 0px 3px 0px;
+    text-transform: uppercase;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="2"] {
+    border-bottom-color: #008893;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="2"][class="selected"] {
+    border-color: #008893;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="2"] h2,
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="2"] p {
+    color: #008893;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="3"] {
+    border-bottom-color: #099EE0;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="3"][class="selected"] {
+    border-color: #099EE0;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="3"] h2,
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="3"] p {
+    color: #099EE0;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="4"] {
+    border-bottom-color: #9F33BF;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="4"][class="selected"] {
+    border-color: #9F33BF;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="4"] h2,
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="4"] p {
+    color: #9F33BF;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="5"] {
+    border-bottom-color: #08B5BC;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="5"][class="selected"] {
+    border-color: #08B5BC;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="5"] h2,
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="5"] p {
+    color: #08B5BC;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="6"] {
+    border-bottom-color: #BA8338;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="6"][class="selected"] {
+    border-color: #BA8338;
+}
+
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="6"] h2,
+.divkpisaccordions .divsubtopkpis>ul>li>a[kpi-color="6"] p {
+    color: #BA8338;
+}
+
+.divkpifulllist {
+    width: 100%;
+    position: relative;
+}
+
+.divkpifull {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.divkpifull a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    padding: 8px;
+    border-bottom: 3px solid;
+}
+
+.divkpifull a h2 {
+    margin: 0px 0px 0px auto;
+    font-size: 20px;
+    font-family: "latobold", sans-serif;
+}
+
+.divkpifull a p {
+    font-size: 13px;
+    font-family: "latobold", sans-serif;
+    margin: 0px;
+}
+
+.divkpifull a[kpi-color="0"] {
+    border-bottom-color: #2D73D3;
+}
+
+.divkpifull a[kpi-color="0"] h2,
+.divkpifull>a[kpi-color="0"] p {
+    color: #2D73D3;
+}
+
+.divkpifull>a {
+    border-left: 3px solid;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.divkpifull>a>p {
+    color: #000;
+}
+
+.divkpifull>a[kpi-color="7"] {
+    border-left-color: #63811F;
+}
+
+.divkpifull>a[kpi-color="7"][class="selected"] {
+    border-color: #63811F;
+}
+
+.divkpifull>a[kpi-color="7"] h2,
+.divkpifull>a[kpi-color="7"] p {
+    color: #63811F;
+}
+
+.divkpifull>a[kpi-color="8"] {
+    border-left-color: #269B0A;
+}
+
+.divkpifull>a[kpi-color="8"][class="selected"] {
+    border-color: #269B0A;
+}
+
+.divkpifull>a[kpi-color="8"] h2,
+.divkpifull>a[kpi-color="8"] p {
+    color: #269B0A;
+}
+
+.divkpifull>a[kpi-color="9"] {
+    border-left-color: #4b2929;
+}
+
+.divkpifull>a[kpi-color="9"][class="selected"] {
+    border-color: #4b2929;
+}
+
+.divkpifull>a[kpi-color="9"] h2,
+.divkpifull>a[kpi-color="9"] p {
+    color: #4b2929;
+}
+
+
+.divkpifull>a[kpi-color="11"] {
+    border-left-color: #801C69;
+}
+
+.divkpifull>a[kpi-color="11"][class="selected"] {
+    border-color: #801C69 !important;
+}
+
+.divkpifull>a[kpi-color="11"] h2,
+.divkpifull>a[kpi-color="11"] p {
+    color: #801C69 !important;
+}
+
+.divkpifull>a[kpi-color="1"] {
+    border-left-color: #4F7693;
+}
+
+.divkpifull>a[kpi-color="1"][class="selected"] {
+    border-color: #4F7693;
+}
+
+.divkpifull>a[kpi-color="1"] h2,
+.divkpifull>a[kpi-color="1"] p {
+    color: #4F7693;
+}
+
+.divkpifull>a[kpi-color="10"] {
+    border-left-color: #7E4550;
+}
+
+.divkpifull>a[kpi-color="10"][class="selected"] {
+    border-color: #7E4550;
+}
+
+.divkpifull>a[kpi-color="10"] h2,
+.divkpifull>a[kpi-color="10"] p {
+    color: #7E4550;
+}
+
+.divhr {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin: 5px 0px 10px 0px;
+    border-bottom: 1px dashed #dbdbdb;
+    display: inline-block;
+}
+
+.divhrfullwidth {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin: 5px 0px 10px 0px;
+    border-bottom: 1px dashed #dbdbdb;
+    display: inline-block;
+}
+
+@media (max-width: 1024px) {
+    .divfilters .divfilterrow .divfilterfield {
+        max-width: 50%;
+    }
+}
+
+@media (max-width:500px) {
+    .divheaderactionbtns {
+        margin: 15px 0px 15px 0px;
+        width: 100%;
+        position: relative;
+    }
+
+    .divquestionsTab .ulnav>li>a {
+        padding: 6px 6px 6px 6px;
+    }
+
+    .divborderline {
+        position: absolute;
+        top: 35px;
+    }
+
+    .divheaderactionbtns>ul>li>a {
+        padding: 5px 6px;
+    }
+}
+
+.content {
+    display: none;
+}
+
+.active-content {
+    display: flex;
+}
+
+.divSendTo,
+.divAssignedTo,
+.divElevatepopup {
+    display: block !important;
+}
+
+@media (max-width: 1280px) {
+    .divrightcontainer header {
+        padding: 5px;
+    }
+
+    .divrightcontainer header .divfiscalyear {
+        margin: 0px;
+    }
+
+    .divrightcontainer header .divfiscalyear select {
+        font-size: 10px;
+        min-height: 19px;
+        width: 44px;
+    }
+
+    .divrightcontainer header .divfiscalyear label {
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+
+    .divrightcontainer header .anchorclearalllink {
+        padding: 0 5px;
+        font-size: 12px;
+    }
+
+    .divrightcontainer header h1 {
+        font-size: 12px;
+    }
+}
+span.spandelete {
+    padding: 0px 15px;
+    float: right;
+    color: #0a53ab;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+span.spandelete:hover {
+    color: #ff0000;
+}

@@ -1,0 +1,375 @@
+.divformcontainer {
+    width: 100%;
+    margin: 15px auto;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 9%);
+}
+
+.divformheader,
+.divformfooter {
+    width: 100%;
+    background-color: #304e7e;
+    position: relative;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+}
+
+.divformheader h1 {
+    font-family: 'latobold', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 6px 0px;
+}
+
+.divformheader .actionbtns,
+.divformfooter .actionbtns {
+    margin-left: auto;
+}
+
+.divformheader .actionbtns ul,
+.divformheader .actionbtns ul li,
+.divformfooter .actionbtns ul,
+.divformfooter .actionbtns ul li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.divformheader .actionbtns ul li a,
+.divformfooter .actionbtns ul li a {
+    padding: 3px 10px;
+    background-color: #ffc400;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.divformheader .actionbtns ul li a span,
+.divformfooter .actionbtns ul li a span[class^="icon-"] {
+    padding-right: 3px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.divformfooter .actionbtns ul li a span[class^="icon-Update"],
+.divformheader .actionbtns ul li a span[class^="icon-Update"] {
+    font-size: 13px;
+}
+
+.divformheader .actionbtns ul li a.updatebtn span,
+.divformfooter .actionbtns ul li a.publishbtn span,
+.divformfooter .actionbtns ul li a.updatebtn span,
+.divformfooter .actionbtns ul li a.publishbtn span {
+    font-weight: bold;
+}
+
+.divformheader .actionbtns ul li a:hover,
+.divformheader .actionbtns ul li a:focus,
+.divformheader .actionbtns ul li a:active,
+.divformfooter .actionbtns ul li a:hover,
+.divformfooter .actionbtns ul li a:focus,
+.divformfooter .actionbtns ul li a:active {
+    background-color: #ffc400;
+}
+
+.divformheader .actionbtns ul li,
+.divformfooter .actionbtns ul li {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.divformheader .actionbtns ul li:last-child,
+.divformfooter .actionbtns ul li:last-child {
+    margin-right: 0;
+}
+
+.divformheader .anchorInsbtn {
+    background-color: #75acdd;
+    border-radius: 4px;
+    position: relative;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 25px 3px 8px;
+    margin-left: 5px;
+}
+
+.divformheader .anchorInsbtn span[class^="icon-DownCaret"] {
+    font-size: 5px;
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    font-weight: bold;
+}
+
+.divformheader .anchorInsbtn.opened span[class^="icon-DownCaret"]:before {
+    transform: rotate(180deg);
+    position: absolute;
+    right: 1px;
+    top: 0px;
+    left: 0px;
+}
+
+.divformbody {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.divforminstructions {
+    background-color: #e4eef7;
+    border: 1px solid #E6E6E6;
+    border-top: 1px solid transparent;
+    position: relative;
+    padding: 5px 0px 5px 30px;
+}
+
+.divforminstructions ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.divforminstructions ul li {
+    list-style-type: circle;
+    padding-bottom: 5px;
+}
+
+.divforminstructions ul li span {
+    color: #000;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 12px;
+}
+
+.divforminstructions ul li span.spanstar {
+    color: #ff0000 !important;
+}
+
+.divcontainer a:focus,
+.divcontainer input:focus,
+.divcontainer textarea:focus,
+.divcontainer select:focus,
+div[tabindex="0"]:focus {
+    outline: 1px dotted #323232;
+    outline-offset: 2px;
+}
+
+.divformgroup input:focus,
+.divformgroup textarea:focus,
+.divformgroup select:focus,
+div[tabindex="0"]:focus {
+    outline: 1px dotted #323232;
+    outline-offset: 2px;
+}
+
+.divformgroup input[readonly="readonly"],
+.divformgroup select[readonly="readonly"] {
+    background-color: #f2f2f2;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/***************************************/
+/*Submit list*/
+/***************************************/
+.divformsubmitlist,
+.divformsubmitlistbottom {
+    background-color: #fff7d5;
+    border: 1px dashed #d8ba39;
+    position: relative;
+    padding: 5px 0px 5px 30px;
+}
+
+.divformsubmitlist ul,
+.divformsubmitlistbottom ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.divformsubmitlist ul li,
+.divformsubmitlistbottom ul li {
+    list-style-type: circle;
+    padding-bottom: 5px;
+}
+
+.divformsubmitlist ul li span,
+.divformsubmitlistbottom ul li span {
+    color: #000;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.divformsubmitlist ul li span:hover,
+.divformsubmitlistbottom ul li span:hover {
+    text-decoration: underline;
+}
+
+.divformsubmitlist ul li span.spanstar {
+    color: #ff0000 !important;
+}
+
+.divformsubmitlist h2,
+.divformsubmitlistbottom h2 {
+    font-family: 'sourcesansprosemibold', sans-serif;
+    font-size: 15px;
+    color: #ff4545;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0 5px 0;
+    border-bottom: 1px solid #ff4545;
+}
+
+.divformsubmitlist a.spancloseicon,
+.divformsubmitlistbottom a.spancloseicon {
+    margin-left: auto;
+    text-decoration: none;
+    background-color: #ffd000;
+    padding: 5px 6px 3px 6px;
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #333;
+}
+
+.rdw-emoji-wrapper,
+.rdw-image-wrapper {
+    display: none !important
+}
+
+.rdw-editor-wrapper {
+    border: 1px solid #ddd
+}
+
+.copying {
+    background: #ffffff;
+    padding: 21px 20px 32px;
+    position: relative;
+    z-index: 9999;
+    border: 1px solid #ddd;
+    z-index: 9999;
+    border: 1px solid #ddd;
+    width: 245px;
+    position: relative;
+    margin: 25% auto 0;
+}
+
+.submit-bg {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.36);
+    height: 100%;
+    top: 0;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.copying p {
+    float: left;
+    font-size: 20px;
+    margin: 4px 0 0 10px;
+}
+
+.copying .waiting-dot {
+    margin: 15px 0 0 10px;
+}
+
+.divattachfile input[type="file"] {
+    display: none;
+}
+
+.divattachfile .custom-file-upload {
+    width: auto;
+    border: 1px solid #656565;
+    font-size: 12px;
+    color: #4A4A4A;
+    background-color: #F9FBFC;
+    padding: 3px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: -12px;
+    font-family: 'latomedium', sans-serif;
+}
+
+.divfileattachment {
+    background-color: #f0f4f8;
+    border: 1px solid #cecece;
+    width: 100%;
+    float: left;
+}
+
+.divfileattachment label {
+    width: 100%;
+    padding: 30px 10px 30px 10px;
+    border: none;
+    background: none;
+    min-height: 100px;
+    float: left;
+    text-align: center;
+}
+
+.divfileattachment .jnhkQP {
+    display: inherit;
+}
+
+.divfileattachment .hrrpHM {
+    max-width: inherit;
+}
+
+.fileerrormsg {
+    text-align: center;
+}
+
+.successmsg,
+.Not-acquistion {
+    padding: 7px 10px;
+    background-color: #86a62b;
+    border: 1px solid #3e5204;
+    margin: 10px auto 0 auto;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.successmsg {
+    width: 400px;
+    clear: both;
+    position: relative;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 46%;
+    left: 0;
+    right: 0;
+    z-index: 1024;
+}
+
+.divformcontainer .divfileattachment label {
+    float: none;
+}
+
+.divformcontainer .divfileattachment {
+    text-align: center;
+}
+
+.divformcontainer .divfileattachment .kDTlLA {
+    justify-content: center;
+}
+
+a.anchorSubmitbtn {
+    cursor: pointer !important;
+}

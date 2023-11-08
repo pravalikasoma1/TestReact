@@ -1,0 +1,507 @@
+.divuserprofilesettings .divhomeheader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 10px 0 !important;
+}
+
+.divuserprofilesettings .divhomeheader h1 span[class="icon-Usergroups"] {
+    font-size: 18px;
+    padding-right: 5px;
+    position: relative;
+    top: 3px;
+}
+
+.divuserprofilesettings .divhomeheader h1 span.spanprofilecount {
+    background-color: #F0C619;
+    padding: 3px 6px;
+    border-radius: 4px;
+    margin: 0 0 0 3px;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    font-size: 14px;
+}
+
+.divuserprofilesettings .divhomeheader h1 {
+    text-transform: uppercase;
+    font-family: 'latobold', sans-serif;
+    font-size: 13px;
+    color: #333;
+}
+
+.divuserprofilesettings .divhomeheader h1::after {
+    content: none;
+}
+
+.divuserprofilesettings .divactionitems {
+    margin-left: auto;
+}
+
+.divuserprofilesettings .divProfilecontainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 7%);
+    padding: 15px 10px;
+    margin: 10px 0 15px 0;
+}
+
+.divuserprofilesettings .divprofilehead {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.divuserprofilesettings .divprofileheader {
+    position: relative;
+}
+
+.divuserprofilesettings .divprofileheader h2 {
+    color: #000;
+    font-size: 13px;
+    font-family: 'latobold', sans-serif;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+.divuserprofilesettings .divprofileheader ul {
+    margin: 0;
+    padding: 0px;
+}
+
+.divuserprofilesettings .divprofileheader ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #2C2C2C;
+    font-size: 13px;
+    font-family: 'sourcesansproregular', sans-serif;
+    padding-right: 10px;
+}
+
+.divuserprofilesettings .divprofileheader ul li span.spancricle {
+    width: 6px;
+    height: 6px;
+    border-radius: 100px;
+    background-color: #707070;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+}
+
+.divuserprofilesettings .anchorupdatebtn {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #FFC400;
+    color: #000;
+    font-size: 14px;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.divuserprofilesettings .anchorupdatebtn i {
+    font-size: 14px;
+    padding-right: 2px;
+}
+
+.divuserprofilesettings .anchorupdatebtn:hover,
+.anchorupdatebtn:focus,
+.anchorupdatebtn:visited {
+    background-color: #FFC400;
+    text-decoration: none;
+}
+
+.divuserprofilesettings .divformbody {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #DDDEE0;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+.divuserprofilesettings .divformbody h2 {
+    color: #00529B;
+    font-size: 14px;
+    font-family: 'latomedium', sans-serif;
+    margin: 0px;
+    font-weight: normal;
+
+}
+
+.divuserprofilesettings .divflexcontainer {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+.divuserprofilesettings .divflexcontainer .divflexitem {
+    padding: 0 10px 0 0;
+}
+
+.divuserprofilesettings .divformgroup input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #cecece !important;
+    padding: 3px 6px !important;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 14px;
+    color: #333
+}
+
+.divuserprofilesettings .divradiobutns {
+    margin: 10px 0 0 0;
+    position: relative;
+}
+
+.divuserprofilesettings .divradiobutns label {
+    margin-right: 10px;
+}
+
+.divuserprofilesettings .divradiobutns input[type="radio"] {
+    position: relative;
+    top: -2px;
+    margin: 0 2px 0 0;
+    width: auto;
+    height: auto;
+}
+
+.divuserprofilesettings .divorgflexcontainer .divflexitem {
+    padding: 0 10px 0 0;
+    max-width: 15%;
+    min-width: 15%;
+}
+
+.divuserprofilesettings .divorgflexcontainer .divflexitem:nth-child(1) {
+    max-width: 16%;
+    min-width: 14%;
+}
+
+.divuserprofilesettings .anchorsearchicon {
+    line-height: 30px;
+    color: #cecece;
+}
+
+.divuserprofilesettings .divorgflexcontainer .divflexitem:last-child {
+    padding-right: 0px;
+}
+
+.divuserprofilesettings .divorgflexcontainer .divflexitem:nth-child(2) {
+    max-width: 11%;
+    min-width: 11%;
+}
+
+.divuserprofilesettings .divUpdatebtn {
+    padding: 10px 0px 0px 0px;
+    margin-left: auto;
+    display: flex;
+    border-top: 1px solid #DDDEE0;
+    margin: 5px 0px 5px 0px;
+}
+
+.divuserprofilesettings .divsearch {
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+}
+
+.divuserprofilesettings .divactionitems .divsearch input {
+    min-width: 600px;
+    font-size: 12px !important;
+}
+
+.divuserprofilesettings .divactionitems a {
+    text-decoration: none;
+}
+
+.divuserprofilesettings .divactionitems a.anchoraddbtn {
+    background-color: #0A8489;
+    padding: 5px 10px;
+    color: #fff;
+    font-family: "sourcesansprosemibold", sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+}
+
+.divuserprofilesettings .divactionitems a.anchoraddbtn span[class^="icon-add"] {
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+
+.divuserprofilesettings .divhintmsg {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.divuserprofilesettings .divhintmsg p {
+    padding: 5px 0px 5px 0px;
+    font-size: 13px;
+    color: #8B8B8B;
+    margin: 0px;
+    font-family: 'sourcesansproregular', sans-serif;
+    text-align: center;
+}
+
+.divuserprofilesettings .divuserprofilescontent .divcard div[class^="divitem"] {
+    min-width: 15%;
+    max-width: 15%;
+}
+
+.divuserprofilesettings .divsearch .anchorsearchbtn span.icon-searchleft:before {
+    font-size: 11px;
+    position: relative;
+    right: 5px;
+}
+
+@media (max-width: 800px) {
+    .divuserprofilesettings .divactionitems .divsearch input {
+        min-width: 390px;
+    }
+
+    .divuserprofilesettings .divflexcontainer .divflexitem {
+        max-width: 33%;
+        min-width: 33%;
+    }
+
+    .divuserprofilesettings .divorgflexcontainer .divflexitem:nth-child(1) {
+        max-width: 28%;
+        min-width: 28%;
+    }
+
+    .divuserprofilesettings .divorgflexcontainer .divflexitem:nth-child(2) {
+        max-width: 30%;
+        min-width: 30%;
+    }
+}
+
+.divuserprofilesettings .divuserprofilescontent .divcard div[class^="divitem"] {
+    min-width: 15%;
+    max-width: 15%;
+}
+
+.divuserprofilesettings .divsearch {
+    margin: 10px 5px 10px 0px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.divuserprofilesettings .divactionitems .divsearch input {
+    min-width: 600px;
+    font-size: 12px !important;
+}
+
+.divuserprofilesettings .divsearch input {
+    background-color: #fff;
+    min-height: 32px;
+    padding: 3px 25px 3px 10px !important;
+    font-size: 14px;
+    font-family: 'sourcesansproregular', sans-serif;
+    max-width: 300px;
+    border: 1px solid #B4B4B4;
+}
+
+.divuserprofilesettings .divactionitems a.anchoraddbtn {
+    background-color: #0A8489;
+    padding: 7px 10px;
+    color: #fff;
+    font-family: "sourcesansprosemibold", sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+}
+
+.divuserprofilesettings .divactionitems a.anchoraddbtn span[class^="icon-"] {
+    position: relative;
+    top: 2px;
+    padding-right: 3px;
+}
+
+.divuserprofilesettings .divactionitems a {
+    text-decoration: none;
+}
+
+.divuserprofilesettings .flex-container {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.divuserprofilesettings .flexitem1 {
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0 10px 0 0;
+}
+
+.divuserprofilesettings .flexitem3 {
+    -ms-flex: 3;
+    flex: 3;
+}
+
+.divuserprofilesettings .profileinfoheadding {
+    color: #00529b;
+    font-size: 14px;
+    font-family: "latomedium", sans-serif;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+    border-bottom: 1px solid #dddee0;
+    padding-bottom: 10px;
+}
+
+.divuserprofilesettings .divdodnumber,
+.divuserprofilesettings .divdutyemail {
+    flex: 2;
+}
+
+.divuserprofilesettings .flexitem {
+    padding: 0 10px 0 0;
+    flex: 1;
+}
+
+.flex-passcode .flexitem:nth-child(2) {
+
+    max-width: 9%;
+}
+
+.flex-passcode .flexitem:nth-child(1) {
+    max-width: 16%;
+    min-width: 16%;
+}
+@media screen and (min-device-width:768px) and (max-device-width: 1366px) {
+    .divuserprofilesettings .divflexcontainer {
+        display: inherit;
+    }
+    .divuserprofilesettings .divorgflexcontainer .divflexitem:first-child,
+    .divuserprofilesettings .divorgflexcontainer .divflexitem:nth-child(2) {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .divuserprofilesettings .divorgflexcontainer .divflexitem {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .divAutocompleteInput.divpascodeinput div {
+        width: 100%;
+    }
+    .divsitefeedbackcontent .divcard .divitem {
+        min-width: 18%;
+        max-width: 17%;
+    }
+}
+@media screen and (min-device-width:768px) and (max-device-width: 1280px) {
+
+
+    .divuserprofilesettings .divuserprofilescontent .divcard .divitem:nth-child(4) {
+        max-width: 25%;
+        min-width: 25%;
+    }
+
+    .divflexcontainer .divflexitem {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .divuserprofilesettings .divprofilehead {
+        margin-bottom: 0px;
+    }
+
+
+
+    .divuserprofilesettings .divorgflexcontainer .divflexitem {
+        padding: 0 5px 0px 0px;
+    }
+
+    .divuserprofilesettings .divorgflexcontainer .divflexitem {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .divuserprofilesettings .divorgflexcontainer .divflexitem:nth-child(1),
+    .divuserprofilesettings .divorgflexcontainer .divflexitem:nth-child(2) {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .divAutocompleteInput.divpascodeinput div {
+        width: 100%;
+    }
+
+    .divuserprofilesettings .flexitem {
+
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .flex-passcode .flexitem:first-child {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .flex-container.mobileflex.flex-passcode .flexitem {
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+
+    .divuserprofilesettings .flex-container .flexitem {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .divsitefeedbackcontent .divcard .divitem:nth-child(2) {
+        min-width: 15%;
+        max-width: 15%;
+    }
+}
+
+@media screen and (min-device-width:864px) and (max-device-width: 1152px) {
+    .divKAcontent .divcard div[class^=divitem]:first-child {
+        min-width: 43%;
+        max-width: 43%;
+    }
+
+    .divpolicymemocontent .divcard div[class^=divitem]:nth-child(2) {
+        min-width: 25%;
+        max-width: 23%;
+    }
+
+
+
+    .userfilter select {
+        width: 81px;
+    }
+
+    .ulUsergroupsactionitems .divsearchcontrol input {
+        width: 180px;
+    }
+
+    .divSubCategoriescontent .divcard div[class^=divitem]:last-child {
+        max-width: inherit;
+        min-width: inherit;
+    }
+
+    .divsitefeedbackcontent .divcard .divitem {
+        min-width: 17%;
+        max-width: 17%;
+    }
+}

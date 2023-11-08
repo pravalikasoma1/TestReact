@@ -1,0 +1,31 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#047ea2",
+    "activityBar.activeBorder": "#fc83e0",
+    "activityBar.background": "#047ea2",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#fc83e0",
+    "activityBarBadge.foreground": "#15202b",
+    "statusBar.background": "#035770",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#047ea2",
+    "titleBar.activeBackground": "#035770",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#03577099",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "sash.hoverBorder": "#047ea2",
+    "statusBarItem.remoteBackground": "#035770",
+    "statusBarItem.remoteForeground": "#e7e7e7"
+  },
+  "peacock.color": "#035770",
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}

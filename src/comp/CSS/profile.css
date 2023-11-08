@@ -1,0 +1,447 @@
+.divhomeheader h1 {
+    text-transform: uppercase;
+}
+
+.divProfilecontainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 9%);
+    padding: 15px 10px;
+    margin: 10px 0 15px 0;
+}
+
+.divprofilehead {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.divprofileheader {
+    position: relative;
+}
+
+.divprofileheader h2 {
+    color: #000;
+    font-size: 13px;
+    font-family: 'latobold', sans-serif;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+.divprofileheader ul {
+    margin: 0;
+    padding: 0px;
+}
+
+.divprofileheader ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #2C2C2C;
+    font-size: 13px;
+    font-family: 'sourcesansproregular', sans-serif;
+    padding-right: 10px;
+}
+
+.divprofileheader ul li span.spancricle {
+    width: 6px;
+    height: 6px;
+    border-radius: 100px;
+    background-color: #707070;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+}
+
+.anchorupdatebtn,
+.anchorupdatebottom {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #0257A5;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.anchorupdatebtn i,
+.anchorupdatebottom i {
+    font-size: 14px;
+    padding-right: 2px;
+}
+
+.anchorupdatebtn:hover,
+.anchorupdatebtn:focus,
+.anchorupdatebtn:visited,
+.anchorupdatebottom:hover,
+.anchorupdatebottom:focus,
+.anchorupdatebottom:visited {
+    background-color: #0257A5 !important;
+    text-decoration: none;
+    color: #fff;
+}
+
+.divformbody {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #DDDEE0;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.divformbody h2 {
+    color: #00529B;
+    font-size: 14px;
+    font-family: 'latomedium', sans-serif;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.divflexcontainer {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+.divflexcontainer .divflexitem {
+    padding: 0 10px 0 0;
+    flex: 1.1;
+}
+
+.divformgroup input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #cecece !important;
+    padding: 3px 6px !important;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 14px;
+    color: #333
+}
+
+.divradiobutns {
+    margin: 10px 0 0 0;
+    position: relative;
+}
+
+.divradiobutns label {
+    margin-right: 10px;
+}
+
+.divradiobutns input[type="radio"] {
+    position: relative;
+    top: -2px;
+    margin: 0 2px 0 0;
+    width: auto;
+    height: auto;
+}
+
+.divorgflexcontainer .divflexitem {
+    padding: 0 10px 0 0;
+    flex: 1.1;
+}
+
+.divorgflexcontainer .divflexitem:nth-child(1) {
+    max-width: 16%;
+    min-width: 16%;
+}
+
+.divorgflexcontainer .divflexitem:nth-child(5),
+.divorgflexcontainer .divflexitem:nth-child(6) {
+    max-width: 18%;
+    min-width: 18%;
+}
+
+.divorgflexcontainer .divflexitem:last-child {
+    padding-right: 0px;
+}
+
+.divorgflexcontainer .divflexitem:nth-child(2) {
+    max-width: 9%;
+    min-width: 9%;
+}
+
+.anchorsearchicon {
+    line-height: 30px;
+    color: #cecece;
+}
+
+.divorgflexcontainer .divflexitem:last-child {
+    padding-right: 0px;
+}
+
+.divUpdatebtn {
+    padding: 10px 0px 0px 0px;
+    margin-left: auto;
+    display: flex;
+    border-top: 1px solid #DDDEE0;
+    margin: 5px 0px 5px 0px;
+}
+
+/***************************************/
+/*Update list*/
+/***************************************/
+.divupdatelist,
+.divupdatelistbottom {
+    display: none;
+    background-color: #fff7d5;
+    border: 1px dashed #d8ba39;
+    position: relative;
+    padding: 5px 0px 5px 30px;
+}
+
+.divupdatelist ul,
+.divupdatelistbottom ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.divupdatelist ul li,
+.divupdatelistbottom ul li {
+    list-style-type: circle;
+    padding-bottom: 5px;
+}
+
+.divupdatelist ul li span,
+.divupdatelistbottom ul li span {
+    color: #000;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.divupdatelist ul li span:hover,
+.divupdatelistbottom ul li span:hover {
+    text-decoration: underline;
+}
+
+.divupdatelist ul li span.spanstar {
+    color: #ff0000 !important;
+}
+
+.divupdatelist h2,
+.divupdatelistbottom h2 {
+    font-family: 'sourcesansprosemibold', sans-serif;
+    font-size: 15px;
+    color: #ff4545;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0 5px 0;
+    border-bottom: 1px solid #ff4545;
+}
+
+.divupdatelist a.spancloseicon,
+.divupdatelistbottom a.spancloseicon {
+    margin-left: auto;
+    text-decoration: none;
+    background-color: #ffd000;
+    padding: 5px 6px 3px 6px;
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #333;
+}
+
+@media (min-width: 1024px) and (max-width:1280px) {
+    .divorgflexcontainer .divflexitem {
+        min-width: 10%;
+        max-width: 13%;
+    }
+
+    .divorgflexcontainer .divflexitem label {
+        font-size: 11px;
+    }
+
+    .flexitem {
+        max-width: 8%;
+    }
+}
+
+@media (max-width: 800px) {
+    .divflexcontainer .divflexitem {
+        max-width: 33%;
+        min-width: 33%;
+    }
+
+    .divorgflexcontainer .divflexitem:nth-child(1) {
+        max-width: 30%;
+        min-width: 30%;
+    }
+
+    .divorgflexcontainer .divflexitem:nth-child(2) {
+        max-width: 20%;
+        min-width: 20%;
+    }
+
+    .divformgroup label {
+        font-size: 11px;
+    }
+
+}
+
+.divAutocompleteInput div div {
+    z-index: 9 !important;
+    max-height: 20% !important;
+}
+
+.divAutocompleteInput div input disabled {
+    background-color: #f8f8f8 !important;
+}
+
+.divAutocompleteInput div {
+    width: 100%;
+}
+
+.divAutocompleteInput.divpascodeinput div {
+    width: auto;
+}
+
+.copying {
+    background: #ffffff;
+    padding: 21px 20px 32px;
+    position: relative;
+    z-index: 9999;
+    border: 1px solid #ddd;
+    z-index: 9999;
+    border: 1px solid #ddd;
+    width: 245px;
+    position: relative;
+    margin: 25% auto 0;
+}
+
+.submit-bg {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.36);
+    height: 100%;
+    top: 0;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.copying p {
+    float: left;
+    font-size: 20px;
+    margin: 4px 0 0 10px;
+}
+
+.copying .waiting-dot {
+    margin: 15px 0 0 10px;
+}
+
+@media screen and (min-width:992px) and (max-width:1024px) {
+    .userprofiles .flex-container div[class^=flexitem]:last-child {
+        max-width: inherit
+    }
+
+    .userprofiles .flex-container div[class^=flexitem]:last-child .tooltip-content {
+        width: 180px
+    }
+}
+
+@media screen and (min-width:1153px) and (max-width:1439px) {
+    #dodDuplicateErrMsg {
+        max-width: 335px
+    }
+}
+
+@media screen and (min-width:960px) and (max-width:1280px) {
+    .forminline label {
+        font-size: 10.5px
+    }
+}
+
+@media only screen and (max-device-width:1400px) {
+    .flexitem.divpasscode {
+        min-width: 16%
+    }
+
+    .userprofiles .flex-container div[class^=flexitem]:nth-child(2) {
+        max-width: 11%;
+        min-width: 11%
+    }
+
+    .userprofiles .flex-container div[class^=flexitem]:nth-child(3) {
+        max-width: 16%;
+        min-width: 16%
+    }
+
+    .userprofiles .flex-container div[class^=flexitem]:nth-child(4) {
+        max-width: 18%;
+        min-width: 18%
+    }
+
+    .forminline label {
+        font-size: 11px
+    }
+}
+
+@media only screen and (max-device-width:1366px) {
+    .flexitem.divpasscode {
+        min-width: 16%
+    }
+
+    .userprofiles .flex-container div[class^=flexitem]:nth-child(2) {
+        max-width: 11%;
+        min-width: 11%
+    }
+
+    .userprofiles .flex-container div[class^=flexitem]:nth-child(3) {
+        max-width: 16%;
+        min-width: 16%
+    }
+
+    .userprofiles .flex-container div[class^=flexitem]:nth-child(4) {
+        max-width: 18%;
+        min-width: 18%
+    }
+
+    .forminline label {
+        font-size: 11px
+    }
+}
+
+@media (min-width:1050px) and (max-width:1400px) {
+
+    .userprofiles .flex-container div[class^=flexitem]:last-child,
+    .userprofiles .flex-container div[class^=flexitem]:nth-child(2),
+    .userprofiles .flex-container div[class^=flexitem]:nth-child(3),
+    .userprofiles .flex-container div[class^=flexitem]:nth-child(4) {
+        max-width: inherit;
+        min-width: inherit
+    }
+
+    .divorgflexcontainer .divflexitem:first-child,
+    .divorgflexcontainer .divflexitem:nth-child(2),
+    .divorgflexcontainer .divflexitem:nth-child(5),
+    .divorgflexcontainer .divflexitem:nth-child(6) {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+}
+.divflexcontainer.divorgflexcontainer div[class^="divflexitem"]:last-child .info-tooltip .classic { right:-9px; left: inherit;}
+.divflexcontainer.divorgflexcontainer div[class^=divflexitem]:last-child .info-tooltip .classic::before {
+    left: inherit;
+     right: 8px;
+ }
+ .divflexcontainer.divorgflexcontainer .flexitem:last-child .info-tooltip .classic { right:-9px; left: inherit;}
+ .divflexcontainer.divorgflexcontainer .flexitem:last-child .info-tooltip .classic::before {
+     left: inherit;
+      right: 8px;
+ }
+ .divAutocompleteInput.divwidthauto div div {
+    width: auto;
+}

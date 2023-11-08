@@ -1,0 +1,737 @@
+body {
+    background-color: #FAFAFA;
+}
+
+/*************************************************/
+/*Top Search section*/
+/*************************************************/
+.divtopsection {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    position: relative;
+    padding: 40px 0px 40px 0px;
+
+
+}
+
+.divhelpsection {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.divhelpsection h1 {
+    font-size: 35px;
+    font-family: 'latobold', sans-serif;
+    margin: 0px;
+    text-align: center;
+    color: #000;
+}
+
+.divhelpsection h1 span {
+    color: #003F91;
+}
+
+
+.divrightside {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.divsearchinput {
+
+
+    position: relative;
+    margin: 0px;
+}
+
+.divsearchinput input {
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #cecece;
+    width: 100%;
+    height: 28px;
+    font-size: 12px;
+    padding: 0 30px 0px 10px;
+    font-family: "sourcesansproregular", sans-serif;
+    width: 300px;
+}
+
+.divsearchinput .anchorsearchicon {
+
+    font-size: 13px;
+    line-height: 30px;
+
+    text-decoration: none;
+
+    position: absolute;
+    right: 10px;
+    left: unset;
+    top: 1px;
+    color: #ccc;
+    background: none;
+}
+
+.divadded .divheader a.anchorviewall:before {
+    content: "";
+    border-left: dashed 1px #ccc;
+    height: 26px;
+    position: absolute;
+    top: -5px;
+    left: 10px;
+}
+
+.divsearchinput .anchorgraphsearchicon {
+    position: absolute;
+    right: 3px;
+    width: 47px;
+    height: 47px;
+    font-size: 20px;
+    color: #003F91;
+    line-height: 50px;
+    top: 12px;
+    text-decoration: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+.divMostSearched {
+    width: 55%;
+    display: flex;
+    margin: 0 auto;
+    padding: 5px 20px 10px 20px;
+}
+
+.divMostSearched h2 {
+    color: #3C3C3C;
+    font-size: 14px;
+    font-family: 'latobold', sans-serif;
+    margin: 0px;
+}
+
+.divMostSearched ul {
+    margin: 0px;
+    padding-left: 6px;
+}
+
+.divMostSearched ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.divMostSearched ul li a {
+    border-radius: 14px;
+    background-color: #dbe3eb;
+    color: #191919;
+    font-size: 14px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-family: 'sourcesansproregular', sans-serif;
+}
+
+/*************************************************/
+/*Submitter Section*/
+/*************************************************/
+.divsubmitercontent {
+    position: relative;
+    padding: 10px 0px 0px 0px;
+}
+
+.divsubmitercontent .divheader {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px 10px 0px;
+}
+
+.divSubmittersection {
+    width: 100%;
+    display: flex;
+    margin: 0px -5px 0px -5px;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed rgba(112, 112, 112, 0.4);
+    padding-bottom: 10px;
+}
+
+.divSubmittercard {
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin: 0px 8px;
+}
+
+.divSubmittersection .divplaceholder {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 7%);
+    padding: 15px;
+    margin: 10px 0 10px 0;
+}
+
+.divSubmittercard:nth-child(1) {
+    margin-left: 0px;
+}
+
+.divSubmittercard:last-child {
+    margin-right: 0px;
+}
+
+.divSubmittercard .divplaceholder {
+    min-height: 268px;
+}
+
+.divicon {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.divicon span[class^="icon-"] {
+    font-size: 35px;
+}
+
+.divicon span[class^="icon-SubmitQuestion"] {
+    color: #36569D;
+}
+
+.divicon span[class^="icon-KnowledgeGraph"] {
+    color: #3D9D20;
+}
+
+.divicon span[class^="icon-PoliciesDocuments"] {
+    color: #B99912;
+}
+
+.divicon span[class^="icon-MyQuestions"] {
+    color: #8D34AD;
+}
+
+.divcarddetails {
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.divcarddetails h2 {
+    color: #000000;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    font-family: 'latobold', sans-serif;
+}
+
+.divcarddetails p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    font-family: 'sourcesansproregular', sans-serif;
+    padding: 5px 0px 5px 0px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.divcarddetails .anchorbtn {
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'latomedium', sans-serif;
+    font-size: 14px;
+}
+
+.divcarddetails .anchorbtn[kpi-color="1"] {
+    background-color: #36569D;
+}
+
+.divcarddetails .anchorbtn[kpi-color="2"] {
+    background-color: #3D9D20;
+}
+
+.divcarddetails .anchorbtn[kpi-color="3"] {
+    background-color: #B99912;
+}
+
+.divcarddetails .anchorbtn[kpi-color="4"] {
+    background-color: #8D34AD;
+}
+
+/*************************************************/
+/*SME Review Section*/
+/*************************************************/
+.divSMEReviewContent .divSubmittercard:nth-child(1) {
+    flex: 0 0 50%;
+}
+
+.divSMEReviewContent .divSubmittercard .divheader h2 {
+    color: #000;
+    font-size: 18px;
+    font-family: 'latobold', sans-serif;
+    margin: 0px;
+}
+
+.divSMEReviewContent .divSubmittercard .divheader h2:after {
+    content: "";
+    border-bottom: 3px #FFC141 solid;
+    width: 80%;
+    display: block;
+    padding: 5px 0 0 0;
+}
+
+.divSMEKpis {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    position: relative;
+}
+
+.divSMEKpis ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.divSMEKpis ul li {
+    list-style-type: none;
+    width: 33%;
+    padding: 0px 10px 0px 0px;
+    margin-bottom: 5px;
+}
+
+.divSMEKpis>ul>li>a {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #DBDBDB;
+    border-left: 3px solid;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    min-height: 50px;
+}
+
+.divSMEKpis ul li:nth-child(3),
+.divSMEKpis ul li:nth-child(6),
+.divSMEKpis ul li:nth-child(9) {
+    padding-right: 0px;
+}
+
+.divSMEKpis>ul>li>a>h2 {
+    font-size: 20px;
+    font-family: "latobold", sans-serif;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.divSMEKpis>ul>li>a>p {
+    font-size: 13px;
+    font-family: "latobold", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #3E454D;
+    text-align: left;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="0"] {
+    border-left-color: #32387B;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="0"] h2 {
+    color: #32387B;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="2"] {
+    border-left-color: #008893;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="2"] h2 {
+    color: #008893;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="3"] {
+    border-left-color: #099EE0;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="3"] h2 {
+    color: #099EE0;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="4"] {
+    border-left-color: #9F33BF;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="4"] h2 {
+    color: #9F33BF;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="5"] {
+    border-left-color: #08B5BC;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="5"] h2 {
+    color: #08B5BC;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="6"] {
+    border-left-color: #BA8338;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="6"] h2 {
+    color: #BA8338;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="7"] {
+    border-left-color: #63811F;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="7"] h2 {
+    color: #63811F;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="8"] {
+    border-left-color: #269B0A;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="8"] h2 {
+    color: #269B0A;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="9"] {
+    border-left-color: #4b2929;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="9"] h2 {
+    color: #4b2929;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="10"] {
+    border-left-color: #7E4550;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="10"] h2 {
+    color: #7E4550;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="11"] {
+    border-left-color: #801C69;
+}
+
+.divSMEKpis>ul>li>a[kpi-color="11"] h2 {
+    color: #801C69;
+}
+
+
+/*************************************************/
+/*Recently added Articles Section , 
+Most Viewed Articles section , 
+Recommended for you section*/
+/*************************************************/
+.divadded {
+    width: 100%;
+    margin: 15px -5px 0px -5px;
+    position: relative;
+}
+
+.divadded .divheader {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divadded .divheader h2 {
+    color: #000000;
+    font-size: 18px;
+    font-family: "latobold", sans-serif;
+    margin: 0px;
+}
+
+.divadded .divheader h2 span[class^="icon-"] {
+    font-size: 18px;
+    padding-right: 10px;
+    color: #004F9F;
+    position: relative;
+    top: 2px;
+}
+
+.divadded .divheader a.anchorviewall {
+    margin-left: auto;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 13px;
+    color: #033c86;
+    position: relative;
+    padding-left: 20px;
+}
+
+.divadded .divheader a:hover {
+    text-decoration: underline;
+}
+
+.divaddedcontainer {
+    width: 100%;
+    display: flex;
+    margin: 0px -5px 0px 0px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.divaddedcard {
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin: 0px 8px;
+}
+
+.divaddedcard:nth-child(1) {
+    margin-left: 0px;
+}
+
+.divaddedcard:last-child {
+    margin-right: 0px;
+}
+
+.divaddedcard>.divplaceholder>.divtop {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.divtop .spanheading {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.divtop .spanheading h2 {
+    color: #284872;
+    font-size: 13px;
+    font-family: 'latomedium', sans-serif;
+    font-weight: normal;
+    min-height: 25px;
+}
+
+.divaddedcard .divplaceholder {
+    text-align: left;
+    min-height: 228px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 7%);
+    padding: 15px;
+}
+
+.divtop .spanactions {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 0px 10px 0px;
+    display: inline-block;
+}
+
+.divtop .spanactions ul {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.divtop .spanactions ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    color: #2259A3;
+}
+
+.divtop .spanactions ul li:nth-child(1) {
+    padding-left: 0px;
+    color: #6C6C6C;
+}
+
+.divtop .spanactions ul li:nth-child(2) {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.divtop .spanactions ul li span.spanNaffa {
+    background-color: #E3EFFF;
+    border-radius: 14px;
+    padding: 3px 10px;
+    color: #2259A3;
+    text-transform: uppercase;
+}
+
+.divtop .spanactions ul li span[class^="icon-"] {
+    color: #2259A3;
+    padding-right: 5px;
+}
+
+.divbottom {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.divbottom h2 {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'sourcesansprosemibold', sans-serif;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.divbottom p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 556px) {
+
+    .divMostSearched h2 {
+        min-width: 105px;
+    }
+
+    .divMostSearched {
+        align-items: inherit;
+    }
+
+    .divMostSearched ul li {
+        margin-bottom: 15px;
+    }
+
+    .divMostSearched ul li a {
+        padding: 5px 10px;
+    }
+
+    .divSubmittercard,
+    .divaddedcard {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .divsearchinput,
+    .divMostSearched {
+        width: 100%;
+    }
+
+    .divaddedcard .divplaceholder {
+        min-height: 310px;
+    }
+
+    .divtop .spanactions ul li:last-child {
+        padding: 0px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .divsearchinput,
+    .divMostSearched,
+    .divhelpsection {
+        width: 100%;
+    }
+
+    .divSubmittercard,
+    .divaddedcard {
+        flex-basis: inherit;
+        max-width: 46.77%;
+    }
+
+    .divplaceholder {
+        margin: 5px 0px 5px 0px;
+    }
+
+    .divSubmittercard:nth-child(1),
+    .divaddedcard:nth-child(1) {
+        margin-left: 8px;
+    }
+
+    .divSubmittercard:last-child,
+    .divaddedcard:last-child {
+        margin-right: 8px;
+    }
+
+    .divSubmittersection,
+    .divaddedcontainer {
+        margin: 0px;
+        padding: 0px 0px 5px 0px;
+    }
+
+    .divaddedcard .divplaceholder {
+        min-height: 230px;
+    }
+
+    .divMostSearched ul li a {
+        font-size: 12px;
+    }
+
+}
+
+.copying {
+    background: #ffffff;
+    padding: 21px 20px 32px;
+    position: relative;
+    z-index: 9999;
+    border: 1px solid #ddd;
+    z-index: 9999;
+    border: 1px solid #ddd;
+    width: 245px;
+    position: relative;
+    margin: 25% auto 0;
+}
+
+.submit-bg {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.36);
+    height: 100%;
+    top: 0;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.copying p {
+    float: left;
+    font-size: 20px;
+    margin: 4px 0 0 10px;
+}
+
+.copying .waiting-dot {
+    margin: 15px 0 0 10px;
+}
+
+
+
+@media (max-width: 1280px) {
+
+    .divsearchinput,
+    .divMostSearched {
+        width: 66%;
+    }
+
+    .divaddedcard .divplaceholder {
+        min-height: 252px;
+    }
+}

@@ -1,0 +1,291 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?4xvhl');
+  src:  url('fonts/icomoon.eot?4xvhl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4xvhl') format('truetype'),
+    url('fonts/icomoon.woff?4xvhl') format('woff'),
+    url('fonts/icomoon.svg?4xvhl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-reopen:before {
+  content: "\e93a";
+}
+.icon-Add:before {
+  content: "\e900";
+}
+.icon-Assignto:before {
+  content: "\e901";
+}
+.icon-Back:before {
+  content: "\e902";
+}
+.icon-Calendar:before {
+  content: "\e903";
+}
+.icon-Check:before {
+  content: "\e904";
+}
+.icon-Clear:before {
+  content: "\e905";
+}
+.icon-Close:before {
+  content: "\e906";
+}
+.icon-CreateInquiry:before {
+  content: "\e907";
+}
+.icon-Dashboard:before {
+  content: "\e908";
+}
+.icon-Delete:before {
+  content: "\e909";
+}
+.icon-DownCaret:before {
+  content: "\e90a";
+}
+.icon-Download:before {
+  content: "\e90b";
+}
+.icon-Edit:before {
+  content: "\e90c";
+}
+.icon-Elevate:before {
+  content: "\e90d";
+}
+.icon-Exporttoexcel:before {
+  content: "\e90e";
+}
+.icon-GraphSearch:before {
+  content: "\e90f";
+}
+.icon-HelpDesk:before {
+  content: "\e910";
+}
+.icon-Info:before {
+  content: "\e911";
+}
+.icon-KnowledgeGraph:before {
+  content: "\e912";
+}
+.icon-MostViewed:before {
+  content: "\e913";
+}
+.icon-MyQuestions:before {
+  content: "\e914";
+}
+.icon-Notification:before {
+  content: "\e915";
+}
+.icon-PoliciesDocuments:before {
+  content: "\e916";
+}
+.icon-Promote:before {
+  content: "\e917";
+}
+.icon-Recently:before {
+  content: "\e918";
+}
+.icon-Recommended:before {
+  content: "\e919";
+}
+.icon-Respond:before {
+  content: "\e91a";
+}
+.icon-Save:before {
+  content: "\e91b";
+}
+.icon-Search:before {
+  content: "\e91c";
+}
+.icon-Settings:before {
+  content: "\e91d";
+}
+.icon-Share:before {
+  content: "\e91e";
+}
+.icon-SiteFeedback:before {
+  content: "\e91f";
+}
+.icon-Submit:before {
+  content: "\e920";
+}
+.icon-SubmitQuestion:before {
+  content: "\e921";
+}
+.icon-Upload:before {
+  content: "\e922";
+}
+.icon-User:before {
+  content: "\e923";
+}
+.icon-arrow:before {
+  content: "\e924";
+}
+.icon-Usergroups:before {
+  content: "\e925";
+}
+.icon-Adduser:before {
+  content: "\e926";
+}
+.icon-POC:before {
+  content: "\e927";
+}
+.icon-quicklinks:before {
+  content: "\e928";
+}
+.icon-folder:before {
+  content: "\e929";
+}
+.icon-ChangeSection:before {
+  content: "\e92a";
+}
+.icon-openfolder:before {
+  content: "\e92b";
+}
+.icon-usersinfo:before {
+  content: "\e92c";
+}
+.icon-searchright:before {
+  content: "\e92d";
+}
+.icon-searchleft:before {
+  content: "\e92e";
+}
+.icon-sinkusers:before {
+  content: "\e92f";
+}
+.icon-groupcomment:before {
+  content: "\e930";
+}
+.icon-addusers:before {
+  content: "\e931";
+}
+.icon-SendReminder:before {
+  content: "\e932";
+}
+.icon-excel:before {
+  content: "\e933";
+}
+.icon-refresh:before {
+  content: "\e934";
+}
+.icon-submit-question:before {
+  content: "\e935";
+}
+.icon-sinking:before {
+  content: "\e936";
+}
+.icon-phone:before {
+  content: "\e937";
+}
+.icon-addcomment:before {
+  content: "\e938";
+}
+.icon-Update:before {
+  content: "\e939";
+}
+.icon-calendar:before {
+  content: "\e93b";
+}
+.icon-mail:before {
+  content: "\e93c";
+}
+.icon-caretright:before {
+  content: "\e93d";
+}
+.icon-document:before {
+  content: "\e93e";
+}
+.icon-dashboard:before {
+  content: "\e93f";
+}
+.icon-sortascending:before {
+  content: "\e940";
+}
+.icon-pptdoc:before {
+  content: "\e941";
+}
+.icon-active:before {
+  content: "\e942";
+}
+.icon-left-arrow:before {
+  content: "\e943";
+}
+.icon-file:before {
+  content: "\e944";
+}
+.icon-list:before {
+  content: "\e945";
+}
+.icon-uniE947:before {
+  content: "\e947";
+}
+.icon-uniE948:before {
+  content: "\e948";
+}
+.icon-policymemosnew:before {
+  content: "\e949";
+}
+.icon-announcementnew:before {
+  content: "\e94b";
+}
+.icon-right-arrow:before {
+  content: "\e94c";
+}
+.icon-chart-messagner:before {
+  content: "\e958";
+}
+.icon-worddoc:before {
+  content: "\e959";
+}
+.icon-chart-people:before {
+  content: "\e95e";
+}
+.icon-cancel:before {
+  content: "\e96a";
+}
+.icon-portal:before {
+  content: "\e96e";
+}
+.icon-trash:before {
+  content: "\e976";
+}
+.icon-uploadarrow:before {
+  content: "\e978";
+}
+.icon-userscheck:before {
+  content: "\e97a";
+}
+.icon-usersettings:before {
+  content: "\e97b";
+}
+.icon-metadata:before {
+  content: "\e97c";
+}
+.icon-delete:before {
+  content: "\e97d";
+}
+.icon-pdf:before {
+  content: "\e946";
+}
+.icon-pptdoc1:before {
+  content: "\e94a";
+}

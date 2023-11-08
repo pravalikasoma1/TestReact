@@ -1,0 +1,365 @@
+.divinnerheader {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px dashed #ddd;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+    align-items: flex-end;
+    margin: 10px 0 10px 0;
+}
+
+.divinnerheader h1 {
+    font-family: 'latobold', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.divinnerheader h1 span[class^="icon-"] {
+    font-size: 20px;
+    padding-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.spanPoccount {
+    font-family: 'sourcesansprosemibold', sans-serif;
+    color: #000;
+    font-size: 15px;
+    padding: 4px 8px;
+    background-color: #F0C619;
+    border-radius: 4px;
+    margin-left: 5px;
+    top: -1px;
+    position: relative;
+}
+
+.divheaderelements {
+    display: flex;
+    margin: 4px 0 0 0;
+}
+
+.divheaderelements .divforminline select {
+    width: 150px;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 13px;
+    color: #575757;
+    border: 1px solid #d7dae2;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.06);
+    padding: 3px 5px;
+    margin-right: 10px;
+}
+
+.divheaderelements .divsearchcontrol {
+    position: relative;
+    margin: 0 10px 0 0;
+}
+
+.divheaderelements .divsearchcontrol input {
+    font-size: 12px;
+    font-family: 'latomedium', sans-serif;
+    padding: 4px 25px 4px 5px;
+    border-bottom: 1px solid #d7dae2 !important;
+    border: none;
+}
+
+.divheaderelements .divsearchcontrol a {
+    text-decoration: none;
+    position: absolute;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+    font-size: 15px;
+    color: #575757;
+    right: 7px;
+    top: 5px;
+}
+
+.anchorbackbtn {
+    display: block;
+    padding: 5px 8px;
+    font-family: 'sourcesansprosemibold', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.anchorbackbtn,
+.anchorbackbtn:visited,
+.anchorbackbtn:hover,
+.anchorbackbtn:active {
+    background-color: #334860;
+    color: #fff
+}
+
+.anchorbackbtn span.icon-left-arrow {
+    position: relative;
+    top: 0px;
+    font-size: 10px;
+    right: 2px;
+}
+
+.anchorclearall {
+    color: #1B90B4;
+}
+
+/*****************************************/
+/*Body Content*/
+/*****************************************/
+.divinnerrightcontainer>ul,
+.divinnerrightcontainer>ul>article>li {
+    width: 100%;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.divinnerrightcontainer>ul>article>li {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.divinnerrightcontainer>ul>article>li:last-child {
+    border-bottom: none;
+}
+
+.divinnerrightcontainer>ul>article li header {
+    font-size: 14px;
+    font-weight: 600;
+    color: #00529b;
+    margin: 0 0 5px 0;
+    font-family: 'sourcesansprosemibold', sans-serif;
+}
+
+.divinnerrightcontainer ul article li p {
+    font-size: 13px;
+    margin: 0;
+    font-family: 'sourcesansproregular', sans-serif;
+    padding-bottom: 5px;
+    color: #000000;
+    line-height: 1.5em;
+}
+
+.divinnerrightcontainer ul article li p.postedinfo {
+    color: #656565;
+}
+
+.divinnerrightcontainer ul article li b {
+    font-family: 'sourcesansprosemibold', sans-serif;
+    color: #000;
+    font-size: 13px;
+}
+
+.divinnerrightcontainer ul article li p img {
+    min-width: auto;
+    max-width: 100%;
+}
+
+.divinnerattachments {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+.divinnerattachments span a {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    text-decoration: none;
+    color: #00529b;
+    font-size: 13px;
+    font-family: 'sourcesansproregular', sans-serif;
+}
+
+.divinnerattachments span i[class^="icon-"] {
+    padding-right: 3px;
+    color: #00529b;
+    font-size: 11px;
+}
+
+.divinnerattachments span a:hover {
+    text-decoration: underline;
+}
+
+.postedinfo {
+    color: #656565;
+    font-size: 13px;
+    margin: 5px 0 0 0;
+}
+
+.postedinfo span {
+    border-right: 1px solid #c7c7c7;
+    padding: 0 8px 0 5px;
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 13px;
+}
+
+.postedinfo span label {
+    vertical-align: baseline;
+}
+
+.postedinfo span:first-child {
+    padding-left: 0px;
+}
+
+.postedinfo span:last-child {
+    border-right: 0px;
+}
+
+.morecontent span {
+    display: none;
+}
+
+.anchormorelink {
+    display: block;
+    margin: 5px 0;
+}
+
+.divinnerrightcontainer .anchormorelink {
+    font-weight: 600;
+    font-size: 13px;
+    color: #00529b;
+    text-decoration: none;
+    position: relative;
+}
+
+.divinnerrightcontainer .anchormorelink:after {
+    content: "\e902";
+    font-family: 'icomoon', sans-serif !important;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-size: 10px;
+    padding-left: 14px;
+    top: -1px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.divinnerrightcontainer .anchormorelink.less:after {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.divinnerrightcontainer .anchormorelink.less:after {
+    padding-right: 6px;
+    top: 8px;
+}
+
+span.spanheading {
+    display: flex;
+    color: #000;
+    font-size: 12px;
+    font-family: 'latobold', sans-serif;
+}
+
+/*****************************************/
+/*Tags*/
+/*****************************************/
+.divtagspanel,
+.divtagheader {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.divtagspanel {
+    border: 1px solid #d2d2d2;
+    background-color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.divtagheader {
+    background-color: #0c4a81;
+    padding: 10px;
+    display: flex;
+}
+
+.divtagheader p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'latobold', sans-serif;
+}
+
+.divtagheader .anchorclearlink {
+    margin-left: auto;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'sourcesansprosemibold', sans-serif;
+}
+
+.divtagspanelbody,
+.divtagspanelbody ul {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+}
+
+.divtagspanelbody ul li {
+    width: auto;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+}
+
+.divtagspanelbody ul li a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #278bed;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: #013e7d;
+    font-family: 'sourcesansprosemibold', sans-serif;
+}
+
+.divtagspanelbody ul li a:hover {
+    background-color: #278bed;
+    color: #fff;
+}
+
+mark.YourHighlightClass {
+    background: #ff6;
+    padding: 0px
+}
+
+.postedinfo label span {
+    padding: 0px;
+}
+
+.divinnerattachments span span[class^="icon-worddoc"],
+.divinnerattachments span span[class^="icon-pptdoc"],
+.divinnerattachments span span[class^="icon-pdf"],
+.divinnerattachments span span[class^="icon-document"],
+.divinnerattachments span span[class^="icon-excel"] {
+    padding-right: 3px;
+    font-size: 11px;
+}
+
+.divinnerattachments span span.icon-worddoc {
+    color: #015CAD;
+}
+
+.divinnerattachments span span.icon-pptdoc {
+    color: #C4412C;
+}
+
+.divinnerattachments span span.icon-excel {
+    color: #1D6F42;
+}
+
+.divinnerattachments span span.icon-pdf {
+    color: #ff0000;
+}
